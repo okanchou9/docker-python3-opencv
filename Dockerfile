@@ -53,3 +53,5 @@ RUN apt-get -qq update \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get -qq autoremove \
     && apt-get -qq clean
+
+ENTRYPOINT ["/bin/bash"]
