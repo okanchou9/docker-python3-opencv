@@ -4,7 +4,7 @@ LABEL mantainer="Josip Janzic <josip@jjanzic.com>"
 
 WORKDIR /opt/build
 
-ENV OPENCV_VERSION="4.5.1"
+ENV OPENCV_VERSION="4.5.5"
 
 RUN apt-get -qq update \
     && apt-get -qq install -y --no-install-recommends \
